@@ -9,6 +9,9 @@ build/
 # relamo state (generated at runtime)
 *.pkl
 
+# Development notes
+scratchpad/
+
 # OS
 .DS_Store
 Thumbs.db
