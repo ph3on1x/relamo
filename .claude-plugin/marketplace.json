@@ -8,7 +8,7 @@
       "name": "relamo",
       "source": "./",
       "description": "Recursive Language Model skill — programmatic codebase exploration via persistent Python REPL loop",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Dennis Nasarov"
       }
