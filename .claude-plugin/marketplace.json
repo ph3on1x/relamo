@@ -1,16 +1,21 @@
 {
   "name": "relamo",
   "owner": {
-    "name": "Dennis Nasarov"
+    "name": "Dennis Nasarov",
+    "url": "https://github.com/ph3on1x"
+  },
+  "metadata": {
+    "description": "Moved to ph3on1x/agent-plugins-skills. This marketplace forwards to the new location."
   },
   "plugins": [
     {
       "name": "relamo",
-      "source": "./",
-      "description": "Recursive Language Model skill — programmatic codebase exploration via persistent Python REPL loop",
-      "version": "1.2.0",
-      "author": {
-        "name": "Dennis Nasarov"
+      "description": "relamo (moved to ph3on1x/agent-plugins-skills)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ph3on1x/agent-plugins-skills.git",
+        "path": "skills/relamo",
+        "ref": "main"
       }
     }
   ]
